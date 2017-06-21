@@ -9,14 +9,5 @@ public class RunKNearestNeighborsAlgorithm {
 	}
 	
 //	Java Implementation - http://afewguyscoding.com/2010/05/nearest-neighbors-java/
-	
-//	Pseudocode - https://stackoverflow.com/questions/22796864/k-nearest-neighbor-pseudocode
-	
-//	kNN (dataset, sample){
-//		   1. Go through each item in my dataset, and calculate the "distance" 
-//		   from that data item to my specific sample.
-//		   2. Classify the sample as the majority class between K samples in 
-//		   the dataset having minimum distance to the sample.
-//		}
-	
+//	Check out A* algorithm
 }
