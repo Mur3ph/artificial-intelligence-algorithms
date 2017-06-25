@@ -45,4 +45,5 @@ public class RunAStarAlgorithm {
 	
 //	A* Java code Resource: https://codereview.stackexchange.com/questions/38376/a-search-algorithm
 //	Pseudocode wiki: https://en.wikipedia.org/wiki/A*_search_algorithm#Pseudocode
+//	https://www.youtube.com/watch?v=DhtSZhakyOo
 }
