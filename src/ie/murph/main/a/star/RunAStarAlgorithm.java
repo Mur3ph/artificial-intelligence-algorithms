@@ -21,6 +21,8 @@ public class RunAStarAlgorithm {
 	private final static int calcTwo = start + start + distanceStart_AndB;
 	
 	public static void main(String[] args){
+		
+		//Possible paths
 		int S = (start + start) + Start_Heuristic;
 		
 		int SA = calcOne + A_Heuristic;
