@@ -40,10 +40,10 @@ public class RunAStarAlgorithm {
 		
 		int SABCG = ((calcOne + distanceA_And_B + distanceB_And_C) + distanceC_And_G)  + G_Heuristic;
 		
-		System.out.println("SAG: " + SAG);
-		System.out.println("SACG: " + SACG);
-		System.out.println("SBCG: " + SBCG);
-		System.out.println("SABCG: " + SABCG);
+		System.out.println("Route SAG: " + SAG);
+		System.out.println("Route SACG: " + SACG);
+		System.out.println("Route SBCG: " + SBCG);
+		System.out.println("Route SABCG: " + SABCG);
 	}
 	
 	
