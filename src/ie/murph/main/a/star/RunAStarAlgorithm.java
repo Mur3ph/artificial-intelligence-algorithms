@@ -1,5 +1,8 @@
 package ie.murph.main.a.star;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class RunAStarAlgorithm {
 	
 	private final static int start = 0;
@@ -9,6 +12,8 @@ public class RunAStarAlgorithm {
 	private final static int C_Heuristic = 1;
 	private final static int G_Heuristic = 0;
 	
+	int[] heuristic = {7, 6, 2, 1, 0};
+	
 	private final static int distanceStart_AndA = 1;
 	private final static int distanceStart_AndB = 4;
 	private final static int distanceA_And_B = 2;
@@ -16,6 +21,16 @@ public class RunAStarAlgorithm {
 	private final static int distanceA_And_C = 5;
 	private final static int distanceB_And_C = 2;
 	private final static int distanceC_And_G = 3;
+	
+	private static final Map<String, Integer> distance = new HashMap<String, Integer>() {{
+	    put("StartToA", 1);
+	    put("StartToB", 4);
+	    put("AB", 2);
+	    put("AC", 12);
+	    put("AG", 5);
+	    put("BC", 2);
+	    put("CG", 3);
+	}};
 	
 	private final static int calcOne = start + start + distanceStart_AndA;
 	private final static int calcTwo = start + start + distanceStart_AndB;
@@ -46,8 +61,11 @@ public class RunAStarAlgorithm {
 		System.out.println("Route S->A->B->C->G: " + SABCG);
 	}
 	
-	
-	
+	private static void run(){
+		
+		int[] distance = {};
+	}
+
 //	A* Java code Resource: https://codereview.stackexchange.com/questions/38376/a-search-algorithm
 //	Pseudocode wiki: https://en.wikipedia.org/wiki/A*_search_algorithm#Pseudocode
 //	https://www.youtube.com/watch?v=DhtSZhakyOo
