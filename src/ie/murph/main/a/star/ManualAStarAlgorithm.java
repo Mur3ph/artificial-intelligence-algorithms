@@ -26,12 +26,12 @@ public class ManualAStarAlgorithm {
 
 		int SA = calcOne + A_Heuristic;
 		int SB = calcTwo + B_Heuristic;
-		System.out.println("SA: " + SA + "/nSB: " + SB);
+		System.out.println("SA: " + SA + "\nSB: " + SB);
 
 		int SAB = (calcOne + distanceA_And_B) + B_Heuristic;
 		int SAC = (calcOne + distanceA_And_C) + C_Heuristic;
 		int SAG = (calcOne + distanceA_And_G) + G_Heuristic;
-		System.out.println("SAB: " + SAB + "n/SAC: " + SAC);
+		System.out.println("SAB: " + SAB + "\nSAC: " + SAC);
 
 		int SBC = (calcTwo + distanceB_And_C) + C_Heuristic;
 		System.out.println("SBC: " + SBC);
