@@ -6,7 +6,7 @@ import java.util.Map;
 public class GenericAStarAlgorithm {
 
 	private final int[] heuristic = { 7, 6, 2, 1, 0 };
-	private final static Map<String, Integer> distance = new HashMap<String, Integer>() {
+	private final static Map<String, Integer> distanceByRoute = new HashMap<String, Integer>() {
 		{
 			put("StartToA", 1);
 			put("StartToB", 4);
