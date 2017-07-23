@@ -19,6 +19,12 @@ public class GenericAStarAlgorithm {
 	};
 	
 	private static void run() {
-		int[] distance = {};
+		for (Map.Entry entry : distanceByRoute.entrySet()) {
+		    System.out.println(entry.getKey() + ", " + entry.getValue());
+		}
+	}
+	
+	public static void main(String args[]){
+		run();
 	}
 }
